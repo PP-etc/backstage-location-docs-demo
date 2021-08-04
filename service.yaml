@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service
+  description: |
+    DEMO service
+  tags:
+    - kotlin
+  annotations:
+    backstage.io/techdocs-ref: dir:./service
+spec:
+  type: service
+  owner: demo
+  lifecycle: production

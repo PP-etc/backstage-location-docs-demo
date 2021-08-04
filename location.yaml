@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-backstage
+  description: demo collection
+spec:
+  targets:
+    - ./service.yaml
